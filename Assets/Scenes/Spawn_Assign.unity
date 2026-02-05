@@ -1159,11 +1159,6 @@ Canvas:
   m_CorrespondingSourceObject: {fileID: 380645501538590258, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
   m_PrefabInstance: {fileID: 4276589355936037686}
   m_PrefabAsset: {fileID: 0}
---- !u!224 &1279812182 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6324010752339699328, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
-  m_PrefabInstance: {fileID: 4276589355936037686}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1416547134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,41 +1206,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1451139155
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1451139156}
-  m_Layer: 5
-  m_Name: Pos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1451139156
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1451139155}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1279812182}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -476, y: 88}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1665631436 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1356279227894557778, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
@@ -1497,10 +1457,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Pos","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Raw","value":{"$content":[0,1,2,3],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Column","value":{"$content":[4,5,6,7],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Spawn_Location","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 1451139155}
+    - {fileID: 782743312}
+    - {fileID: 1870237613}
+    - {fileID: 1173366978}
+    - {fileID: 90083837}
+    - {fileID: 1788691189}
+    - {fileID: 774201976}
+    - {fileID: 109841347}
+    - {fileID: 1190044561}
 --- !u!1 &1870237613
 GameObject:
   m_ObjectHideFlags: 0
@@ -2062,10 +2035,7 @@ PrefabInstance:
     - {fileID: 926416206737522324, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
     - {fileID: 4719995467308452393, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
     - {fileID: 2484330669252599365, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 6324010752339699328, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1451139156}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
 --- !u!1660057539 &9223372036854775807
