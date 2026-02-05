@@ -1889,6 +1889,10 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[1]'
       value: 
       objectReference: {fileID: 774201976}
+    - target: {fileID: 5907111667414630587, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
+      propertyPath: m_Name
+      value: A1
+      objectReference: {fileID: 0}
     - target: {fileID: 6101845316209058402, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
       propertyPath: '_data._objectReferences.Array.data[0]'
       value: 
