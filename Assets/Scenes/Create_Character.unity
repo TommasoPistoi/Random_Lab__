@@ -2319,6 +2319,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 35757047}
     - target: {fileID: 114000010203804414, guid: 4a8bf6bd85a09374591ebbeb96e4e6cb, type: 3}
+      propertyPath: 'AllObjects.Array.data[5]'
+      value: 
+      objectReference: {fileID: 35757047}
+    - target: {fileID: 114000010203804414, guid: 4a8bf6bd85a09374591ebbeb96e4e6cb, type: 3}
       propertyPath: 'AllPanels.Array.data[10]'
       value: 
       objectReference: {fileID: 713127200}
