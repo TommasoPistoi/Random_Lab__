@@ -86,7 +86,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8730253465064572343}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc367a8a0745fba4da94bc6371a36427, type: 3}
   m_Name: 
@@ -98,13 +98,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8730253465064572343}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2af487d2d9d627d46ae3fea96d22efd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FirstPos: {x: 0, y: 0, z: 0}
-  FirstScale: {x: 0, y: 0, z: 0}
+  FirstPos: {x: 137, y: -178.0125, z: 0}
+  FirstScale: {x: 1, y: 1, z: 1}
   DefaultPanel: 0
   Dropped: 0
   OnReturning: 0
