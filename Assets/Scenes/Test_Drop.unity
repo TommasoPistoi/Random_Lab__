@@ -686,12 +686,16 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Spawn_Manager","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
-      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Ally_List","value":{"$content":[4],"$type":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"typeHandle":{"Identification":"System.Collections.Generic.List`1[[UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 658098129}
     - {fileID: 1279812178}
     - {fileID: 6743075330209828763, guid: eeb45d16d6dc9d549aa8307ded1924fc, type: 3}
     - {fileID: 1858785533}
+    - {fileID: 4137731410150119102, guid: 1aaf47977291bad49aa7e913750292b8, type: 3}
 --- !u!4 &514387988
 Transform:
   m_ObjectHideFlags: 0
@@ -1851,6 +1855,7 @@ PrefabInstance:
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Cooldown_Attack","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Life","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Atk","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -2379,6 +2384,79 @@ MonoBehaviour:
     - {fileID: 1971435610}
     - {fileID: 428490689}
     - {fileID: 176633834}
+--- !u!1001 &1885735630
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2540996760836830121, guid: 3018f8401efc99943ade4e2e0a2f74e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553467423059677556, guid: 3018f8401efc99943ade4e2e0a2f74e5, type: 3}
+      propertyPath: m_Name
+      value: Spawn_Ally
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921114635059554734, guid: 3018f8401efc99943ade4e2e0a2f74e5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921114635059554734, guid: 3018f8401efc99943ade4e2e0a2f74e5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921114635059554734, guid: 3018f8401efc99943ade4e2e0a2f74e5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921114635059554734, guid: 3018f8401efc99943ade4e2e0a2f74e5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921114635059554734, guid: 3018f8401efc99943ade4e2e0a2f74e5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921114635059554734, guid: 3018f8401efc99943ade4e2e0a2f74e5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921114635059554734, guid: 3018f8401efc99943ade4e2e0a2f74e5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921114635059554734, guid: 3018f8401efc99943ade4e2e0a2f74e5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921114635059554734, guid: 3018f8401efc99943ade4e2e0a2f74e5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921114635059554734, guid: 3018f8401efc99943ade4e2e0a2f74e5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921114635059554734, guid: 3018f8401efc99943ade4e2e0a2f74e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921114635059554734, guid: 3018f8401efc99943ade4e2e0a2f74e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4921114635059554734, guid: 3018f8401efc99943ade4e2e0a2f74e5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3018f8401efc99943ade4e2e0a2f74e5, type: 3}
 --- !u!1 &1913510471 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5701779316146578884, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
@@ -3215,7 +3293,7 @@ PrefabInstance:
       objectReference: {fileID: 1788691189}
     - target: {fileID: 7625583094611861108, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
       propertyPath: m_Name
-      value: Griglia
+      value: Griglia_UI
       objectReference: {fileID: 0}
     - target: {fileID: 7711181596934684418, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
       propertyPath: '_data._objectReferences.Array.data[0]'
@@ -3385,4 +3463,5 @@ SceneRoots:
   - {fileID: 1185478223}
   - {fileID: 1447794732}
   - {fileID: 1023927516}
+  - {fileID: 1885735630}
   - {fileID: 1648145340}
