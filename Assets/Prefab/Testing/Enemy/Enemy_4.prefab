@@ -113,10 +113,10 @@ MonoBehaviour:
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]],
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 4914927743173675511, guid: 7be2a916af66b524d8cef6b643d150ca, type: 3}
-    - {fileID: 4914927743173675511, guid: eff1b062a55ff9c409ee6f7115c276e6, type: 3}
-    - {fileID: 4914927743173675511, guid: 536f45147c2044344a22c1edd3d0c3d4, type: 3}
-    - {fileID: 4914927743173675511, guid: 6a4025e82bb0b2549b7538ff507a30c8, type: 3}
+    - {fileID: 2504810028571285941, guid: 3df1ccfaa964dbc46b450a7dd1de85fa, type: 3}
+    - {fileID: 2036294473903143524, guid: a5bbfc54791072144af340d0c4748bb8, type: 3}
+    - {fileID: 2919217704469589277, guid: 9632148c1dc579d489bd060f356ac427, type: 3}
+    - {fileID: 8785060663603728115, guid: 6aed9ac6f8cc00740876cf62257ca1bf, type: 3}
 --- !u!114 &8842570590355272020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,5 +255,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 7.36, y: 9.58}
+  m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
