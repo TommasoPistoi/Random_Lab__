@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 8425987681330841680}
   m_Layer: 5
   m_Name: 1_Atk_UI
-  m_TagString: Untagged
+  m_TagString: Orc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2af487d2d9d627d46ae3fea96d22efd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FirstPos: {x: 137, y: -178.0125, z: 0}
+  FirstPos: {x: 452, y: -568, z: 0}
   FirstScale: {x: 1, y: 1, z: 1}
   DefaultPanel: 0
   Dropped: 0

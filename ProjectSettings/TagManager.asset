@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Enemy
   - Proj
+  - Raw
+  - Orc
+  - Fly
+  - Fungo
+  - Golem
   layers:
   - Default
   - TransparentFX

@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5478975716880219551}
   m_Layer: 5
   m_Name: 4_Atk_UI
-  m_TagString: Untagged
+  m_TagString: Golem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
