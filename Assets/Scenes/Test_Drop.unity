@@ -1268,17 +1268,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca20eea2141976447aaccd6f3c331433, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &713127202 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 320898307145936401, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
-  m_PrefabInstance: {fileID: 4276589355936037686}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 713127196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &774201976
 GameObject:
   m_ObjectHideFlags: 0
@@ -3482,38 +3471,6 @@ PrefabInstance:
       propertyPath: '_data._objectReferences.Array.data[1]'
       value: 
       objectReference: {fileID: 1190044561}
-    - target: {fileID: 4654245066208166402, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
-      propertyPath: OnObjectExit.m_PersistentCalls.m_Calls.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4654245066208166402, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
-      propertyPath: OnObjectExit.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4654245066208166402, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
-      propertyPath: OnObjectExit.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 713127202}
-    - target: {fileID: 4654245066208166402, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
-      propertyPath: OnObjectExit.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4654245066208166402, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
-      propertyPath: OnObjectExit.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: TriggerUnityEvent
-      objectReference: {fileID: 0}
-    - target: {fileID: 4654245066208166402, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
-      propertyPath: OnObjectExit.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: Unity.VisualScripting.ScriptMachine, Unity.VisualScripting.Flow
-      objectReference: {fileID: 0}
-    - target: {fileID: 4654245066208166402, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
-      propertyPath: OnObjectExit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: Exit
-      objectReference: {fileID: 0}
-    - target: {fileID: 4654245066208166402, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
-      propertyPath: OnObjectExit.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 5227583604125240232, guid: 7e3382556216326449bab5e2d59c7c80, type: 3}
       propertyPath: '_data._objectReferences.Array.data[0]'
       value: 
