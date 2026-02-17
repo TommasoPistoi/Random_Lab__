@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4979874752940125679}
   - component: {fileID: 1012023188559686489}
   - component: {fileID: 5132633584943012816}
+  - component: {fileID: -483194695357020401}
   m_Layer: 3
   m_Name: Ally
   m_TagString: Player
@@ -126,7 +127,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 57c4179e34e80e84faf7a28b8e4d1ca6, type: 2}
+    - {fileID: 11400000, guid: 8d3d45c83a625aa468fe814a6a002b6b, type: 2}
 --- !u!61 &5132633584943012816
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -157,7 +158,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -173,6 +174,33 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
+--- !u!50 &-483194695357020401
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4137731410150119102}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &7887852230919236891
 GameObject:
   m_ObjectHideFlags: 0
